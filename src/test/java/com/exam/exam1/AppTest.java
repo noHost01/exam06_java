@@ -37,4 +37,6 @@ public class AppTest {
     public void 괄호복합연산_10 () { assertEquals(10, new Calc().run("(1 + 4) * 2")); }
     @Test
     public void 마이너스연산_2 () { assertEquals(-2, new Calc().run("-1 + -1")); }
+    @Test
+    public void 마이너스연산_4 () { assertEquals(-4, new Calc().run("-1 + -1 + -1 + -1")); }
 }

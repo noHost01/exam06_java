@@ -31,6 +31,9 @@ public class Calc {
                 if (bracketCount > 0) {
                     continue;
                 }
+                if(s.charAt(i + 1) != ' ') {
+                    continue;
+                }
                 spitIndex = i;
                 if (s.charAt(i) == '-') {
                     isPlus = false;
